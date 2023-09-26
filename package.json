@@ -1,0 +1,27 @@
+{
+  "name": "live-departure-board",
+  "version": "0.0.0",
+  "description": "Display live departure information for your local transport stops",
+  "scripts": {
+    "build": "tsc",
+    "lint": "eslint --fix . && prettier --write ."
+  },
+  "author": {
+    "name": "Jonathan Beaumont"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@tsconfig/node18": "^18.2.2",
+    "@types/node": "^20.7.0",
+    "@typescript-eslint/eslint-plugin": "^6.7.3",
+    "@typescript-eslint/parser": "^6.7.3",
+    "eslint": "^8.50.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-airbnb-typescript": "^17.1.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-import": "^2.28.1",
+    "eslint-plugin-prettier": "^5.0.0",
+    "prettier": "^3.0.3",
+    "typescript": "^5.2.2"
+  }
+}
